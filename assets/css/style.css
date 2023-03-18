@@ -483,7 +483,14 @@ a:hover {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /* max-width: 12000px; */
+  
 }
 
 .navbar ul {
@@ -492,6 +499,8 @@ a:hover {
   display: flex;
   list-style: none;
   align-items: center;
+  justify-content: center; /* add this line to center the navbar items */
+  
 }
 
 .navbar li {
@@ -499,8 +508,8 @@ a:hover {
 }
 
 .navbar>ul>li {
-  white-space: nowrap;
-  padding: 10px 0 10px 30px;
+  /* white-space: nowrap; */
+  padding: 10px 40px;
 }
 
 .navbar a,
@@ -509,7 +518,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
@@ -617,6 +626,7 @@ a:hover {
     left: -100%;
   }
 }
+
 
 /**
 * Mobile Navigation 
